@@ -254,8 +254,12 @@
     /* PROJECTS */
     #projects { background: var(--surface); }
     .projects-grid {
-      display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 1.8rem; width: 100%; max-width: 1050px; margin-top: 0.5rem;
+      display: grid; 
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.4rem; 
+      width: 100%; 
+      max-width: 900px; 
+      margin-top: 0.5rem;
     }
     .project-card {
       background: var(--surface2); border: 1px solid var(--border);
@@ -513,7 +517,7 @@
             <span class="tag">Python</span>
           </div>
           <h3>AI Voice Agent</h3>
-          <p>Built a real-time voice agent for Hogist that handles speech-to-text, AI-powered response generation, and text-to-speech output using Deepgram and ElevenLabs, deployed on AWS infrastructure.</p>
+          <p>A production-grade conversational AI sales bot named Neha — built with Deepgram for real-time speech-to-text, ElevenLabs for text-to-speech with a human-like Indian female accent, and OpenAI LLM with custom-engineered sales prompts to pitch products naturally. Integrated with TeleCMI for seamless telephony and a custom-built CRM dashboard to log, track, and analyze every call interaction. Deployed on AWS infrastructure capable of handling 1000+ concurrent calls per day, Neha is designed to be indistinguishable from a human sales agent — delivering consistent, scalable, and intelligent outbound calling at enterprise level.</p>
         </div>
       </div>
 
@@ -556,6 +560,29 @@
           <p>A unified platform to manage Instagram, Facebook, and YouTube — schedule posts, track analytics, and draft emails all in one place. AI generates captions from images/videos using OpenAI, and a smart scorer rates your content quality before publishing.</p>
           <div class="project-links">
             <a href="https://github.com/matharun/social-media-dashboard" target="_blank" class="project-link">
+              <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4: MCU AI Assistant -->
+      <div class="project-card reveal">
+        <div class="project-img">
+          <img src="data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="MCU AI Assistant" />
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">Groq LLM</span>
+            <span class="tag">IoT</span>
+          </div>
+          <h3>MCU AI Assistant</h3>
+          <p>A RAG-powered AI chatbot that intelligently recommends microcontrollers from a database of 1500+ MCUs using Groq LLM. Describe your hardware requirements in natural language — the system extracts key parameters like low-power, WiFi, Bluetooth, sensor interfaces, and application category, then retrieves and ranks the best-matched MCUs with detailed specifications. Built with a React frontend and Node.js backend, featuring real-time semantic search, structured query parsing, and intelligent fallback recommendations — designed for embedded engineers and IoT developers to cut MCU selection time drastically.</p>
+          <div class="project-links">
+            <a href="https://github.com/matharun/mcu_ai_assistant" target="_blank" class="project-link">
               <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
               GitHub
             </a>
